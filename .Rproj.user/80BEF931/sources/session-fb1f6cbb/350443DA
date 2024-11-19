@@ -1,0 +1,27 @@
+{
+    "id": "350443DA",
+    "path": "~/R Data/BIOSTAT 625/hw3lm/R/enhanced_linear_regression.R",
+    "project_path": "R/enhanced_linear_regression.R",
+    "type": "r_source",
+    "hash": "3830854154",
+    "contents": "",
+    "dirty": false,
+    "created": 1731991761670.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "47,0",
+        "scrollLine": "26"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1731991990,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1731991990011,
+    "read_only": false,
+    "read_only_alternatives": []
+}

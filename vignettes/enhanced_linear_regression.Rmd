@@ -1,0 +1,33 @@
+---
+title: "enhanced_linear_regression"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{enhanced_linear_regression}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteEngine{knitr::rmarkdown}
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(hw3lm)
+```
+
+# Enhanced Linear Regression
+
+This vignette demonstrates the usage of the `enhanced_linear_regression`
+function.
+
+x \<- 1:10 y \<- 2 \* x + rnorm(10) model \<-
+enhanced_linear_regression(x, y) print(model)
+
+all.equal( enhanced_linear_regression(x, y)\$coefficients, coef(lm(y \~
+x)) )
