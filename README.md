@@ -26,35 +26,18 @@ This package is designed for educational purposes and demonstrates the core func
 
 ---
 
-## Installation
-
-To install the **HW3LM** package from GitHub, use the following command in R:
-
-```R
-# Install devtools if not already installed
-install.packages("devtools")
-
-# Install EnhancedLM from GitHub
-devtools::install_github("yourusername/enhancedlm")
-
----
-
 ## Usage
+
 Here’s an example of how to use the enhanced_linear_regression function from the package:
 
-R
-Copy code
-# Load the package
+#Load the package
 library(hw3lm)
-
-# Example data
+#Example data
 x <- 1:10
 y <- 2 * x + rnorm(10)
-
-# Fit the model
+#Fit the model
 model <- enhanced_linear_regression(x, y)
-
-# Print the model output
+#Print the model output
 print(model)
 
 ---
@@ -70,3 +53,18 @@ R version 4.0 or higher.
 Required packages:
 devtools for installation.
 testthat for testing (optional).
+
+---
+
+## Installation
+
+To install the **HW3LM** package from GitHub, use the following command in R:
+
+```R
+# Install devtools if not already installed
+install.packages("devtools")
+
+# Install hw3lm from GitHub
+devtools::install_github("ruiqirqz/hw3lm")
+```
+---
